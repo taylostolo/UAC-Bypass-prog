@@ -1,14 +1,5 @@
 <#
-.SYNOPSIS
-  Noninteractive version of script, for directly execute.
-  This script is a proof of concept to bypass the User Access Control (UAC) via SluiFileHandlerHijackLPE
-.NOTES
-	File Name  : SluiHijackBypass_direct.ps1
-	Author     : Gushmazuko
-.LINK
-	https://github.com/gushmazuko/WinBypass/blob/master/SluiHijackBypass_direct.ps1
-	Original source: https://bytecode77.com/hacking/exploits/uac-bypass/slui-file-handler-hijack-privilege-escalation
-.EXAMPLE
+
 	Load "cmd.exe" (By Default used 'arch 64'):
 	powershell -exec bypass .\SluiHijackBypass_direct.ps1
 #>
