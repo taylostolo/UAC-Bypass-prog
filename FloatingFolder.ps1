@@ -1,0 +1,1 @@
+New-Item "\\?\C:\Windows \System32" -ItemType Directory
